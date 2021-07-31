@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="15">
+    <title>Time Display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'time_display/css/style.css' %}" media-"screen" title="no title"
+        charset="utf-8">
+</head>
+
+<body>
+    <div>
+        <h5><center>La hora y fecha actual es:</center></h5>
+        <h1 class='display-4'><center>{{time}}</center></h1>
+        <h1 class='display-4'><center>{{date}}</center></h1>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
